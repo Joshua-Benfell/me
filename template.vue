@@ -1,12 +1,13 @@
 <template>
-  <main class="home"></main>
+  <div class=""></div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
-
 export default defineComponent({
-  name: "Home",
+  name: "",
   components: {}
 });
 </script>
+
+<style lang="scss" scoped></style>
