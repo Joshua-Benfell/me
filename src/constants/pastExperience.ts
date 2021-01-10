@@ -8,7 +8,7 @@ const Cherrytree = {
   responsibilities: [],
   role: "Front End Developer",
   show: true
-}
+};
 
 const Xero = {
   name: "Xero",
@@ -20,7 +20,7 @@ const Xero = {
   responsibilities: [],
   role: "Front End Developer Intern",
   show: true
-}
+};
 
 const Research = {
   name: "Victoria University of Wellington",
@@ -32,7 +32,7 @@ const Research = {
   responsibilities: [],
   role: "Research Assistant",
   show: true
-}
+};
 
 const Tutoring = {
   name: "Victoria University of Wellington",
@@ -44,7 +44,7 @@ const Tutoring = {
   responsibilities: [],
   role: "Tutor ENGR101 / ENGR110",
   show: true
-}
+};
 
 const Outreach = {
   name: "Victoria University of Wellington",
@@ -56,12 +56,6 @@ const Outreach = {
   responsibilities: [],
   role: "Outreach Volunteer",
   show: true
-}
+};
 
-export const pastExperiences = [
-  Cherrytree,
-  Xero,
-  Research,
-  Tutoring,
-  Outreach
-]
+export const pastExperiences = [Cherrytree, Xero, Research, Tutoring, Outreach];

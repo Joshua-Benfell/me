@@ -4,8 +4,6 @@ const gooseMicro = {
   github: "https://github.com/Joshua-Benfell/PressYToHonk",
   link: "https://joshua-benfell.github.io/PressYToHonk/",
   image: ""
-}
+};
 
-export const projects = [
-  gooseMicro
-]
+export const projects = [gooseMicro];

@@ -2,7 +2,7 @@ import { createRouter, createWebHistory, RouteRecordRaw } from "vue-router";
 import { headings } from "@/constants";
 
 const Home = () => import("@/views/Home.vue");
-const Projects = () => import("@/views/Projects.vue")
+const Projects = () => import("@/views/Projects.vue");
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -16,7 +16,7 @@ const routes: Array<RouteRecordRaw> = [
   {
     path: "/projects",
     name: "Projects",
-  	component: Projects,
+    component: Projects,
     meta: {
       heading: headings.projects.heading
     }
@@ -26,7 +26,7 @@ const routes: Array<RouteRecordRaw> = [
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
   routes,
-  linkActiveClass: "active-page"
+  linkActiveClass: "nav-link-active"
 });
 
 export default router;
